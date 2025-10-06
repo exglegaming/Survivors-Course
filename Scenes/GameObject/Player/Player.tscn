@@ -1,12 +1,13 @@
 [gd_scene load_steps=4 format=3 uid="uid://cfd1lw66supvw"]
 
-[ext_resource type="Script" uid="uid://bupuiwmdjtog" path="res://Scripts/Player/Player.cs" id="1_ft8w5"]
+[ext_resource type="Script" uid="uid://bupuiwmdjtog" path="res://Scripts/GameObject/Player/Player.cs" id="1_ft8w5"]
 [ext_resource type="Texture2D" uid="uid://d0kc4270kaj3o" path="res://Assets/Player/Player.png" id="1_s0eop"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_s0eop"]
 radius = 5.0
 
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
+collision_layer = 0
 motion_mode = 1
 script = ExtResource("1_ft8w5")
 

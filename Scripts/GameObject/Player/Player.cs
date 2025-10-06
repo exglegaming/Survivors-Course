@@ -1,6 +1,6 @@
 using Godot;
 
-namespace SurvivorsCourse.Scripts.Player;
+namespace SurvivorsCourse.Scripts.GameObject.Player;
 
 public partial class Player : CharacterBody2D {
     private const float MaxSpeed = 200f;

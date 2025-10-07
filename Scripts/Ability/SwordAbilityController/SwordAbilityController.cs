@@ -17,6 +17,6 @@ public partial class SwordAbilityController : Node {
         
         var swordInstance = _swordAbility.Instantiate() as Node2D;
         player.GetParent().AddChild(swordInstance);
-        swordInstance?.GlobalPosition = player.GlobalPosition;
+        if (swordInstance != null) swordInstance.GlobalPosition = player.GlobalPosition;
     }
 }
